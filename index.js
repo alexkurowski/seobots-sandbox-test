@@ -1,4 +1,4 @@
-function mail() {
+function main() {
   console.log("Start");
 
   return JSON.stringify({
@@ -6,3 +6,5 @@ function mail() {
     message: "Test bot"
   });
 }
+
+main()
